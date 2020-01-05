@@ -1,3 +1,3 @@
-import * as wasm from "gen-wasm";
+import * as wasm from "@wasm-pkg/gen-wasm";
 
 wasm.greet();

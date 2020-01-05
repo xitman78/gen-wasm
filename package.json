@@ -6,7 +6,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "build": "wasm-pack build --release -d wasm-pkg --out-name wasm-pkg"
+    "build": "wasm-pack build --release -d wasm-pkg --out-name wasm-pkg --scope wasm-pkg"
   },
   "workspaces": [
     "wasm-pkg",
