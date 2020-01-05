@@ -1,0 +1,15 @@
+{
+  "name": "gen-wasm",
+  "version": "0.1.3",
+  "repository": "https://github.com/xitman78/gen-wasm.git",
+  "author": "Alexander <xitman78@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "wasm-pack build --release -d wasm-pkg --out-name wasm-pkg"
+  },
+  "workspaces": [
+    "wasm-pkg",
+    "web-app"
+  ]
+}

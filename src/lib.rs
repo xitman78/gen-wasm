@@ -17,5 +17,5 @@ extern {
 pub fn greet() {
     // alert("Hello, gen-wasm!");
 
-    log!("Hello from Rust and Wasm!");
+    log!("Hello from Rust and Wasm!!!");
 }
